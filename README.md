@@ -30,19 +30,26 @@ Before diving into the project, ensure you have the following prerequisites:
    cd/<Project-Directory>
    ```
 
-3. Install Dependencies
+3. Create `.env.local` inside `<Project-Directory>`.
+
+4. Add below to `.env.local` file
+   ```bash
+   API_KEY=<Your-OpenAI-API-Key>
+   ```
+
+5. Install Dependencies
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Start Backend Server
+6. Start Backend Server
    ```bash
    python ImageToFormat_API.py
    ```
 
-5. Confirm Server Start: Open the below URL at Browser: [http://localhost:5000/](http://localhost:5000/)
+7. Confirm Server Start: Open the below URL at Browser: [http://localhost:5000/](http://localhost:5000/)
 
-6. Start the Application
+8. Start the Application
    ```bash
    streamlit run App.py
    ```
