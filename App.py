@@ -90,9 +90,8 @@ class Textify_UI:
                            st.error(f"Failed to upload image. Status code: {response.status_code}")
                            st.text(response.text)
             
-        except Exception as e:
-            logging.error("An Error Occured: ", exc_info=e)
-            raise e
+        except:
+            st.error(f"Failed to upload image. Please try again!")
 
 if __name__=='__main__':
     
