@@ -5,12 +5,17 @@ Welcome to _**Textify**_! _**Textify**_ extracts text from images and compiles t
 
 ## Table of Content
 1. [Introduction](#introduction)
-2. [Getting Started](#getting-started)
-3. [Installation](#installation)
-4. [Contribution](#contribution)
+2. [Application UI](#application-ui)
+3. [Getting Started](#getting-started)
+4. [Installation](#installation)
+5. [Contribution](#contribution)
 
 ## Introduction
 _**Textify**_ leverages _**EasyOCR**_ for _**Image Text Extraction**_, integrates _**OpenAI's**_ language model for text formatting, and converts the extracted text into _**PDFs**_. It offers a seamless solution for converting images to formatted _**PDF Documents**_ with enhanced accuracy and efficiency.
+
+## Application UI
+![376219427-7f9c5c81-674c-4832-b47b-06ac95af47c6](https://github.com/user-attachments/assets/c9b7cb47-dbd7-4ced-bdd1-cb71379e60c2)
+![Screenshot 2024-10-14 165827](https://github.com/user-attachments/assets/80de64f6-cb8f-4d63-bc84-f260dca119a6)
 
 ## Getting Started
 Before diving into the project, ensure you have the following prerequisites:
